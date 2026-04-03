@@ -1,0 +1,8 @@
+{
+	"name": "monorepo-root",
+	"private": true,
+	"scripts": {
+		"build": "npm run build --prefix apps/web",
+		"start": "npm run start --prefix apps/web"
+	}
+}
